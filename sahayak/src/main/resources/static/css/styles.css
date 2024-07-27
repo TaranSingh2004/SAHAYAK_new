@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100vw;
+    margin: auto;
+}
+ 
+.hidden{
+    display: none;
+}
+
+.bodyContainer{
+    height: 90vh;
+    display: flex;
+    background-image: url(./src/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: 10;
+    /* opacity: 0.5; */
+    backdrop-filter: blur(150px);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.right{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    padding: 2em;
+    /* display: flex;
+    justify-content: center; */
+    color: white;
+}
